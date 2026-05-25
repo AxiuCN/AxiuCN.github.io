@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
+
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>阿修Axiu · Axiu Network</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
 
-  <!-- 字体 -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>阿修Axiu</title>
+
+  <meta
+    name="description"
+    content="阿修Axiu 的个人网络空间"
+  />
 
   <!-- Remix Icon -->
   <link
@@ -17,79 +24,107 @@
   />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./css/style.css" />
+  <link
+    rel="stylesheet"
+    href="./css/style.css"
+  />
+
 </head>
 
 <body>
 
-  <!-- ===================== -->
-  <!-- 背景层 -->
-  <!-- ===================== -->
+  <!-- ======================================== -->
+  <!-- Background -->
+  <!-- ======================================== -->
 
   <div class="background-glow"></div>
+
   <div class="background-grid"></div>
 
-  <!-- ===================== -->
+  <!-- ======================================== -->
   <!-- Header -->
-  <!-- ===================== -->
+  <!-- ======================================== -->
 
   <header class="header">
 
-    <!-- 左侧 -->
+    <!-- Left -->
+
     <div class="header-left">
 
       <div class="logo-group">
 
         <div class="logo-avatar">
-          <img src="./images/avatar.png" alt="阿修Axiu">
+
+          <img
+            src="./images/avatar.png"
+            alt="阿修Axiu"
+          />
+
         </div>
 
         <div class="logo-text">
+
           <h1>阿修Axiu</h1>
+
           <span>Axiu Network</span>
+
         </div>
 
       </div>
 
     </div>
 
-    <!-- 中间 -->
+    <!-- Center -->
+
     <div class="header-center">
 
-      <div class="welcome-text" id="welcomeText">
+      <div
+        class="header-message"
+        id="headerMessage"
+      >
         晚上好，欢迎来到 阿修Axiu · Axiu Network
       </div>
 
     </div>
 
-    <!-- 右侧 -->
+    <!-- Right -->
+
     <div class="header-right">
 
-      <!-- 状态 -->
+      <!-- Online -->
+
       <div class="status-box">
 
         <span class="status-dot"></span>
 
         <span class="status-text">
-          Services Online
+          Online
         </span>
 
       </div>
 
-      <!-- 时间 -->
+      <!-- Time -->
+
       <div class="time-box">
 
-        <div class="time-date" id="dateText">
-          2026/05/25
+        <div
+          class="time-date"
+          id="dateText"
+        >
+          2026/05/26
         </div>
 
-        <div class="time-clock" id="clockText">
+        <div
+          class="time-clock"
+          id="clockText"
+        >
           22:14:36
         </div>
 
       </div>
 
-      <!-- 导航 -->
+      <!-- Nav -->
+
       <nav class="nav-links">
 
         <a
@@ -97,8 +132,11 @@
           target="_blank"
           class="nav-btn"
         >
+
           <i class="ri-github-fill"></i>
+
           <span>GitHub</span>
+
         </a>
 
         <a
@@ -106,16 +144,22 @@
           target="_blank"
           class="nav-btn"
         >
+
           <i class="ri-bilibili-fill"></i>
+
           <span>Bilibili</span>
+
         </a>
 
         <a
           href="/docs"
           class="nav-btn"
         >
+
           <i class="ri-book-open-line"></i>
+
           <span>Docs</span>
+
         </a>
 
       </nav>
@@ -124,13 +168,15 @@
 
   </header>
 
-  <!-- ===================== -->
+  <!-- ======================================== -->
   <!-- Hero -->
-  <!-- ===================== -->
+  <!-- ======================================== -->
 
   <main class="hero">
 
     <div class="hero-content">
+
+      <!-- Left -->
 
       <div class="hero-text">
 
@@ -139,31 +185,90 @@
         </div>
 
         <h2>
-          个人网络服务<br>
-          与社区空间
+          阿修Axiu<br />
+          Network
         </h2>
 
         <p>
-          Minecraft · TRSS-Yunzai · MCSManager · Docs · Community
+          Minecraft · TRSS-Yunzai · Docs · Community
         </p>
+
+        <!-- Buttons -->
 
         <div class="hero-buttons">
 
-          <a href="/status" class="hero-btn primary-btn">
+          <a
+            href="/status"
+            class="hero-btn primary-btn"
+          >
             查看状态
           </a>
 
-          <a href="/docs" class="hero-btn secondary-btn">
+          <a
+            href="/docs"
+            class="hero-btn secondary-btn"
+          >
             文档中心
           </a>
 
         </div>
 
+        <!-- ======================================== -->
+        <!-- Personal Status Card -->
+        <!-- ======================================== -->
+
+        <div class="personal-card">
+
+          <!-- Top -->
+
+          <div class="personal-top">
+
+            <div class="personal-online">
+
+              <span class="personal-dot"></span>
+
+              <span>
+                Online
+              </span>
+
+            </div>
+
+            <div class="personal-location">
+
+              UTC+8 / Singapore
+
+            </div>
+
+          </div>
+
+          <!-- Main -->
+
+          <div class="personal-main">
+
+            当前正在整理 Docs 与服务器内容。
+
+          </div>
+
+          <!-- Quote -->
+
+          <div class="personal-quote">
+
+            夜深了，别忘了休息。
+
+          </div>
+
+        </div>
+
       </div>
+
+      <!-- Right -->
 
       <div class="hero-image">
 
-        <img src="./images/hutao-banner.png" alt="Hu Tao">
+        <img
+          src="./images/hutao-banner.png"
+          alt="Hu Tao"
+        />
 
       </div>
 
@@ -171,70 +276,367 @@
 
   </main>
 
-  <!-- ===================== -->
+  <!-- ======================================== -->
+  <!-- Projects -->
+  <!-- ======================================== -->
+
+  <section class="projects">
+
+    <div class="projects-container">
+
+      <!-- Title -->
+
+      <div class="section-header">
+
+        <span class="section-tag">
+          RUNNING NOW
+        </span>
+
+        <h3>
+          正在运行
+        </h3>
+
+        <p>
+          一些正在使用或持续维护中的服务与项目。
+        </p>
+
+      </div>
+
+      <!-- Grid -->
+
+      <div class="project-grid">
+
+        <!-- TRSS -->
+
+        <a
+          href="https://yunzai.axiu.uno/guoba"
+          class="project-card"
+        >
+
+          <div class="project-icon">
+
+            <i class="ri-robot-2-line"></i>
+
+          </div>
+
+          <div class="project-content">
+
+            <h4>
+              TRSS-Yunzai
+            </h4>
+
+            <p>
+              正在运行中的聊天机器人与群聊服务，
+              支持日常聊天、游戏娱乐与互动功能。
+            </p>
+
+          </div>
+
+          <div class="project-status online">
+
+            <span></span>
+
+            Online
+
+          </div>
+
+        </a>
+
+        <!-- MCSManager -->
+
+        <a
+          href="https://mcsm.axiu.uno"
+          class="project-card"
+        >
+
+          <div class="project-icon">
+
+            <i class="ri-server-line"></i>
+
+          </div>
+
+          <div class="project-content">
+
+            <h4>
+              MCSManager
+            </h4>
+
+            <p>
+              用于维护 Minecraft 服务端与多个长期运行项目的控制中心。
+            </p>
+
+          </div>
+
+          <div class="project-status online">
+
+            <span></span>
+
+            Running
+
+          </div>
+
+        </a>
+
+        <!-- Docs -->
+
+        <a
+          href="/docs"
+          class="project-card"
+        >
+
+          <div class="project-icon">
+
+            <i class="ri-book-open-line"></i>
+
+          </div>
+
+          <div class="project-content">
+
+            <h4>
+              Docs
+            </h4>
+
+            <p>
+              正在整理中的文档中心，
+              包含服务器、云崽与相关服务文档。
+            </p>
+
+          </div>
+
+          <div class="project-status preparing">
+
+            <span></span>
+
+            Preparing
+
+          </div>
+
+        </a>
+
+        <!-- GitHub -->
+
+        <a
+          href="https://github.com/AxiuCN"
+          target="_blank"
+          class="project-card"
+        >
+
+          <div class="project-icon">
+
+            <i class="ri-github-fill"></i>
+
+          </div>
+
+          <div class="project-content">
+
+            <h4>
+              GitHub Projects
+            </h4>
+
+            <p>
+              一些正在维护中的公开项目、
+              配置文件与网页源码备份。
+            </p>
+
+          </div>
+
+          <div class="project-status online">
+
+            <span></span>
+
+            Active
+
+          </div>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ======================================== -->
+  <!-- Community -->
+  <!-- ======================================== -->
+
+  <section class="community">
+
+    <div class="community-container">
+
+      <div class="community-left">
+
+        <span class="section-tag">
+          COMMUNITY
+        </span>
+
+        <h3>
+          欢迎加入交流群
+        </h3>
+
+        <p>
+          群内已接入 TRSS-Yunzai，
+          欢迎一起聊天、游戏与日常交流。
+        </p>
+
+      </div>
+
+      <div class="community-right">
+
+        <div class="community-number">
+
+          QQ 群：965272093
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ======================================== -->
+  <!-- Footer -->
+  <!-- ======================================== -->
+
+  <footer class="footer">
+
+    <div class="footer-content">
+
+      <span>
+        © 2026 阿修Axiu
+      </span>
+
+      <span class="footer-divider">
+        ·
+      </span>
+
+      <span>
+        Axiu Network
+      </span>
+
+      <span class="footer-divider">
+        ·
+      </span>
+
+      <a
+        href="https://beian.miit.gov.cn/"
+        target="_blank"
+      >
+        闽ICP备2026017611号-1
+      </a>
+
+    </div>
+
+  </footer>
+
+  <!-- ======================================== -->
   <!-- JS -->
-  <!-- ===================== -->
+  <!-- ======================================== -->
 
   <script>
 
-    // =====================
-    // 时间
-    // =====================
+    // ========================================
+    // Clock
+    // ========================================
 
     function updateClock() {
 
       const now = new Date();
 
       const year = now.getFullYear();
-      const month = String(now.getMonth() + 1).padStart(2, "0");
-      const day = String(now.getDate()).padStart(2, "0");
 
-      const hours = String(now.getHours()).padStart(2, "0");
-      const minutes = String(now.getMinutes()).padStart(2, "0");
-      const seconds = String(now.getSeconds()).padStart(2, "0");
+      const month = String(
+        now.getMonth() + 1
+      ).padStart(2, "0");
 
-      document.getElementById("dateText").textContent =
+      const day = String(
+        now.getDate()
+      ).padStart(2, "0");
+
+      const hours = String(
+        now.getHours()
+      ).padStart(2, "0");
+
+      const minutes = String(
+        now.getMinutes()
+      ).padStart(2, "0");
+
+      const seconds = String(
+        now.getSeconds()
+      ).padStart(2, "0");
+
+      document.getElementById(
+        "dateText"
+      ).textContent =
         `${year}/${month}/${day}`;
 
-      document.getElementById("clockText").textContent =
+      document.getElementById(
+        "clockText"
+      ).textContent =
         `${hours}:${minutes}:${seconds}`;
 
     }
 
     setInterval(updateClock, 1000);
+
     updateClock();
 
-    // =====================
-    // 欢迎语
-    // =====================
+    // ========================================
+    // Header Message
+    // ========================================
 
-    function updateWelcome() {
+    function updateHeaderMessage() {
 
       const hour = new Date().getHours();
 
-      let greeting = "晚上好";
+      let text = "";
 
-      if (hour >= 5 && hour < 12) {
-        greeting = "早上好";
+      if (hour >= 5 && hour < 11) {
+
+        text =
+          "早上好，欢迎来到 阿修Axiu · Axiu Network";
+
       }
-      else if (hour >= 12 && hour < 18) {
-        greeting = "下午好";
+
+      else if (hour >= 11 && hour < 14) {
+
+        text =
+          "中午好，欢迎来到 阿修Axiu · Axiu Network";
+
       }
+
+      else if (hour >= 14 && hour < 18) {
+
+        text =
+          "下午好，欢迎来到 阿修Axiu · Axiu Network";
+
+      }
+
       else if (hour >= 18 && hour < 23) {
-        greeting = "晚上好";
-      }
-      else {
-        greeting = "夜深了";
+
+        text =
+          "晚上好，欢迎来到 阿修Axiu · Axiu Network";
+
       }
 
-      document.getElementById("welcomeText").textContent =
-        `${greeting}，欢迎来到 阿修Axiu · Axiu Network`;
+      else {
+
+        text =
+          "夜深了，欢迎来到 阿修Axiu · Axiu Network";
+
+      }
+
+      document.getElementById(
+        "headerMessage"
+      ).textContent = text;
 
     }
 
-    updateWelcome();
+    updateHeaderMessage();
 
   </script>
 
 </body>
+
 </html>
